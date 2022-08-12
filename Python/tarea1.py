@@ -1,4 +1,4 @@
-nom;"Hola, soy Bruno."
+nom="Hola, soy Bruno."
 cur="Estoy empezando el curso de python"
 apr="Espero aprender mucho"
 
