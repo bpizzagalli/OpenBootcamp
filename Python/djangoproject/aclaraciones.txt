@@ -1,0 +1,2 @@
+lo que hice funcional: agregar peliculas, director, genero y el base_generic.html con el index.html
+lo que no pude hacer funcional: mostrar las vistas de la aplicacion. si apretas en "peliculas" te muestra que no hay peliculas cargadas, pero si hay. no se como solucionarlo, por lo tanto no implemente el de Directores
