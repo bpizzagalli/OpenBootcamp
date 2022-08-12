@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %} {% block content %}
+<h1>Django-Pelis</h1>
+
+<p>
+  Bienvenido a <em>Django-Pelis</em>, una web basica creada con Django para
+  OpenBootcamp.
+</p>
+
+<h2>Dynamic content</h2>
+
+<p>Tiene cargado:</p>
+<ul>
+  <li><strong>Directores:</strong> {{ num_directors }}</li>
+  <li><strong>Generos:</strong> {{ num_genre }}</li>
+  <li><strong>Peliculas:</strong> {{ num_pelicula }}</li>
+</ul>
+
+{% endblock %}
