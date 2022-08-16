@@ -1,0 +1,10 @@
+let miAlturaCm=179;
+let miAlturaM=1.79;
+let miPeso=85.4;
+let miAlturaMRedond=Math.ceil(miAlturaM);
+let miPesoRedond=Math.floor(miPeso);
+console.log(miAlturaMRedond);
+console.log(miPesoRedond);
+let maxValor=Number.MAX_VALUE;
+let maxValorVariable=`el máximo valor que se puede obtener en Javascript + 1 es: ${maxValor}`;
+console.log(maxValorVariable);
