@@ -22,32 +22,32 @@
 - Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
 */
 
-nombre='Bruno';
+let nombre='Bruno';
 console.log(nombre);
 
-apellido='Pizzagalli';
+let apellido='Pizzagalli';
 console.log(apellido);
 
-estudiante=`${nombre} ${apellido}`;
+let estudiante=`${nombre} ${apellido}`;
 console.log(estudiante);
 
-estudianteMayus=estudiante.toUpperCase();
+let estudianteMayus=estudiante.toUpperCase();
 console.log(estudianteMayus);
 
-estudianteMinus=estudiante.toLowerCase();
+let estudianteMinus=estudiante.toLowerCase();
 console.log(estudianteMinus);
 
-estudianteEspacios=estudiante.length;
+let estudianteEspacios=estudiante.length;
 console.log(estudianteEspacios);
 
-estudiantePrimerLetraNom=nombre.charAt(0);
+let estudiantePrimerLetraNom=nombre.charAt(0);
 console.log(estudiantePrimerLetraNom);
 
-estudiantePrimerLetraApe=apellido.charAt(0);
+let estudiantePrimerLetraApe=apellido.charAt(0);
 console.log(estudiantePrimerLetraApe);
 
-estudianteEliminaEspacio=estudiante.replace(/\s/g, '');
+let estudianteEliminaEspacio=estudiante.replace(/\s/g, '');
 console.log(estudianteEliminaEspacio);
 
-estudianteVariableBoolean=estudiante.includes(nombre);
+let estudianteVariableBoolean=estudiante.includes(nombre);
 console.log(estudianteVariableBoolean);
